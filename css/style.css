@@ -1,0 +1,36 @@
+
+/*first fold*/
+.navigation{
+    display: flex;
+    height: 13vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation > img{
+    height: 26px;
+}
+
+.navigation > button{
+    margin-right: 10px;
+}
+
+.firstContainer{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+}
+
+.container--content{
+    width: 50%;
+    background-color: #FF6F48;
+}
+
+.firstContainer--img{
+    width: 55%;
+    overflow: hidden;
+}
+
+.cropped2 {
+    object-position: 7vw -230px; /* try 20px 10px */
+}

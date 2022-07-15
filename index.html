@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/global.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,32 +16,37 @@
   <title>Frontend Mentor | Skilled e-learning landing page</title>
 </head>
 <body>
+<!--first fold-->
 <header>
-  <img src="./assets/logo-dark.svg" alt="logo">
-
-  <button>Get Started</button>
+  <nav class="navigation">
+    <img src="./assets/logo-dark.svg" alt="logo">
+    <button class="button--1"><span class="span">Get St</span>arted</button>
+  </nav>
 </header>
 <main>
-  <section>
-    <h1>Maximize skill, minimize budget</h1>
+  <section class="firstContainer">
+    <div class="container--content">
+      <h1 class="title title--xl">Maximize skill, minimize budget</h1>
 
-    <p>Our modern courses across a range of in-demand skills will give you the
-      knowledge you need to live the life you want.</p>
+      <p class="text--m">Our modern courses across a range of in-demand skills will give you the
+        knowledge you need to live the life you want.</p>
 
-    <button>Started</button>
-
-    <img src="./assets/image-hero-desktop.png" alt="image of number of members 29k and number of curse hours 1,451">
+      <button class="button--2">Get Started</button>
+    </div>
+    <div class="firstContainer--img">
+      <img class="cropped2" src="./assets/image-hero-desktop.png" alt="image of number of members 29k and number of curse hours 1,451">
+    </div>
   </section>
 
   <section>
 
     <article>
-      <h2>Check out our most popular courses!</h2>
+      <h2 class="title">Check out our most popular courses!</h2>
     </article>
 
     <article>
       <img src="./assets/icon-animation.svg" alt="icon of a man running">
-      <h3>Animation</h3>
+      <h3 class="title">Animation</h3>
       <p>Learn the latest animation techniques to create stunning motion
         design and captivate your audience.
         Get Started</p>
@@ -48,7 +54,7 @@
 
     <article>
       <img src="./assets/" alt="image title">
-      <h3>Design</h3>
+      <h3 class="title">Design</h3>
       <p>Create beautiful, usable interfaces to help shape the future of
         how the web looks.
         Get Started</p>
@@ -56,7 +62,7 @@
 
     <article>
       <img src="#" alt="image title">
-      <h3>Photography</h3>
+      <h3 class="title">Photography</h3>
       <p>Explore critical fundamentals like lighting, composition, and focus
         to capture exceptional photos.
         Get Started</p>
@@ -64,7 +70,7 @@
 
     <article>
       <img src="#" alt="image title">
-      <h3>Crypto</h3>
+      <h3 class="title">Crypto</h3>
       <p>All you need to know to get started investing in crypto. Go from beginner
         to advanced with this 54 hour course.
         Get Started</p>
@@ -72,7 +78,7 @@
 
     <article>
       <img src="#" alt="image title">
-      <h3>Business</h3>
+      <h3 class="title">Business</h3>
       <p>A step-by-step playbook to help you start, scale, and sustain your business
         without outside investment.
         Get Started</p>
@@ -84,7 +90,7 @@
 
 <footer>
   <img src="./assets/logo-light.svg" alt="logo">
-  <button>Get Started</button>
+  <button class="button--3"><span class="span">Get St</span>arted</button>
 </footer>
 </body>
 </html>

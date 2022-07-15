@@ -1,0 +1,97 @@
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 20px 0 20px 150px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #83869A;
+}
+
+span{
+    text-decoration:line-through;
+    text-decoration-thickness: 2px;
+}
+
+/*texts*/
+
+.title{
+    color: #16183f;
+    font-weight: 800;
+}
+.title--xl{
+    font-size: 56px;
+    line-height: 70px;
+}
+
+.title--l{
+    font-size: 40px;
+    line-height: 51px;
+}
+
+.title--m{
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.title--s{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.text--m{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
+/*end of texts*/
+
+/*buttons*/
+
+.button--1{
+    color: #FFFFFF;
+    background-color: #16183f;
+    height: 55px;
+    width: 170px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 27px;
+    border: none;
+}
+.button--1:hover{
+    background-color: #666CA3;
+}
+.button--1:hover .span{
+    text-decoration: none;
+}
+
+.button--2{
+    color: #FFFFFF;
+    background-image: linear-gradient(#F02AA6, #FF6F48);
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 25px;
+    border: none;
+}
+.button--2:hover{
+    background-image: linear-gradient(rgba(240, 42, 166, 0.5), rgba(255, 111, 72, 0.5));
+}
+
+.button--3{
+    color: #FFFFFF;
+    background-image: linear-gradient(#4851FF, #F02AA6);
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 25px;
+    border: none;
+}
+.button--3:hover{
+    background-image: linear-gradient(rgba(72, 81, 255, 0.5), rgba(240, 42, 166, 0.5));
+}
+
+.button--3:hover .span{
+    text-decoration: none;
+}

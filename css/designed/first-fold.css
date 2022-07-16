@@ -56,9 +56,13 @@
     }
 }
 
-/*tablet 768*/
+/*tablet 912*/
 
-@media screen  and (max-width: 768px){
+@media screen  and (max-width: 912px){
+    .firstContainer{
+    height: 42vh;
+    }
+
     .firstContainer--img{
         background-image: url("../../assets/image-hero-tablet@2x.png");
         top: -87px;
@@ -72,7 +76,7 @@
     }
 
     .container--content p{
-        width: 410px;
+        width: 400px;
     }
 
     .text--m{
@@ -89,7 +93,7 @@
 
     .firstContainer{
         flex-direction: column;
-        height: 150vh;
+        height: 100vh;
     }
 
     .container--content{

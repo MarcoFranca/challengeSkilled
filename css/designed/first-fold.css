@@ -79,3 +79,43 @@
         font-size: 16px;
     }
 }
+
+/*mobile 425*/
+
+@media screen  and (max-width: 425px){
+    .navigation{
+        margin: 20px;
+    }
+
+    .firstContainer{
+        flex-direction: column;
+        height: 150vh;
+    }
+
+    .container--content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        gap: 30px;
+        margin: 20px;
+    }
+
+    .title--xl{
+        font-size: 40px;
+        line-height: 70px;
+    }
+
+    .container--content p{
+        width: 95%;
+    }
+
+    .firstContainer--img{
+        background-image: url("../../assets/image-hero-mobile@2x.png");
+        background-position: center;
+        position: static;
+        width: 100%;
+
+    }
+
+}

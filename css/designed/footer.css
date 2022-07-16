@@ -16,3 +16,10 @@ footer{
         margin: 0 110px;
     }
 }
+
+/*mobile 425px*/
+@media screen and (max-width: 425px){
+    .footer{
+        margin: 0 20px;
+    }
+}

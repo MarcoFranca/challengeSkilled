@@ -5,11 +5,13 @@ body{
     font-weight: 700;
     color: #83869A;
 }
+
 a{
     text-decoration: none;
     color: #F74780;
     font-weight: 700;
 }
+
 main{
     position: relative;
     background-image: linear-gradient(#FFFFFF 50%, rgb(239, 241, 254));
@@ -106,8 +108,22 @@ main{
 }
 /*end of buttons*/
 
+/*laptop 1190*/
 @media screen and (max-width: 1190px){
     main{
         padding: 20px 50px 20px 50px;
     }
+}
+
+/*mobile 425*/
+
+@media screen  and (max-width: 425px){
+    main{
+        position: relative;
+        background-image: linear-gradient(#FFFFFF 50%, rgb(239, 241, 254));
+        max-width: 100vw;
+        overflow: hidden;
+        padding: 0;
+    }
+
 }

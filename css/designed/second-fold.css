@@ -5,24 +5,27 @@
     width: 100%;
     justify-content: space-between;
 }
-
-.card--courses{
-    background-image: linear-gradient(#FF6F48, #F02AA6);
-}
-
-
 .card{
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #FFFFFF;
-    width: 290px;
-    height: 240px;
-    padding: 35px 16px 35px 30px;
     border-radius: 10px;
+    width: 290px;
+    padding: 35px 16px 35px 30px;
+}
+.card--title{
+    background-image: linear-gradient(#FF6F48, #F02AA6);
+    height: 240px;
     margin-bottom: 85px;
 }
+
+.card--courses{
+    background-color: #FFFFFF;
+    height: 240px;
+
+}
+
 
 .card > img{
 position: absolute;
@@ -37,9 +40,16 @@ position: absolute;
 
 @media screen and (min-width: 960px) and (max-width: 1300px) {
     .card{
-        width: 240px;
-        height: 210px;
         padding: 30px 16px 35px 30px;
+        width: 240px;
+    }
+
+    .card--title{
+        height: 210px;
+    }
+
+    .card--courses{
+        height: 210px;
     }
 }
 
@@ -47,8 +57,46 @@ position: absolute;
 
 @media screen and (max-width: 768px) {
     .card{
-        width: 240px;
-        height: 210px;
         padding: 30px 16px 35px 30px;
+        width: 240px;
+    }
+
+    .card--title{
+        height: 210px;
+    }
+
+    .card--courses{
+        height: 210px;
+    }
+}
+
+/*mobile 425*/
+
+@media screen  and (max-width: 425px) {
+    .skill{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .card{
+        margin-bottom: 85px;
+        width: 80%;
+        padding: 30px 16px 35px 30px;
+    }
+
+    .card--title{
+        height: 60px;
+    }
+
+    .card--title h2{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        font-size: 24px;
+        height: 100%;
+    }
+
+    .card--courses{
+        height: 210px;
     }
 }

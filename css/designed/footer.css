@@ -10,3 +10,9 @@ footer{
     height: 100%;
     margin: 0 150px;
 }
+
+@media screen and (max-width: 1300px){
+    .footer{
+        margin: 0 110px;
+    }
+}

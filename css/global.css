@@ -13,7 +13,6 @@ a{
 main{
     position: relative;
     background-image: linear-gradient(#FFFFFF 50%, rgb(239, 241, 254));
-
     max-width: 100vw;
     overflow: hidden;
     padding: 20px 140px 20px 150px;
@@ -104,4 +103,11 @@ main{
 }
 .button--3:hover{
     background-image: linear-gradient(rgba(140, 87, 245, 0.63), rgba(240, 42, 166, 0.63));
+}
+/*end of buttons*/
+
+@media screen and (max-width: 1190px){
+    main{
+        padding: 20px 50px 20px 50px;
+    }
 }

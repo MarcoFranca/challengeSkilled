@@ -12,6 +12,7 @@
 .navigation > button{
     z-index: 1;
 }
+
 /*first fold*/
 
 .firstContainer{
@@ -25,19 +26,56 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
-    gap: 40px;
+    width: 55%;
+    gap: 30px;
 }
 
 .container--content p{
-    width: calc(85%);
+    width: 440px;
 }
 
 .firstContainer--img{
+    background-image: url("../../assets/image-hero-desktop@2x.png");
+    background-size:cover ;
+    background-repeat: no-repeat;
     position: absolute;
-    top: -186px;
-    right: -83px;
-    width: 55%;
+    top: -150px;
+    right: 0;
+    width: 735px;
+    height: 1000px;
 }
 
+/*laptop 1024*/
 
+@media screen and (max-width: 1024px){
+    .firstContainer--img{
+        position: absolute;
+        top: -129px;
+        width: 550px;
+        height: 820px;
+    }
+}
+
+/*tablet 768*/
+
+@media screen  and (max-width: 768px){
+    .firstContainer--img{
+        background-image: url("../../assets/image-hero-tablet@2x.png");
+        top: -87px;
+        width: 379px;
+        height: 697px;
+    }
+
+    .title--xl{
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .container--content p{
+        width: 410px;
+    }
+
+    .text--m{
+        font-size: 16px;
+    }
+}

@@ -21,7 +21,7 @@
     height: 240px;
     padding: 35px 16px 35px 30px;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-bottom: 85px;
 }
 
 .card > img{
@@ -33,6 +33,22 @@ position: absolute;
     margin-top: 30px;
 }
 
-.card > a{
+/*laptop 1024*/
 
+@media screen and (min-width: 960px) and (max-width: 1300px) {
+    .card{
+        width: 240px;
+        height: 210px;
+        padding: 30px 16px 35px 30px;
+    }
+}
+
+/*tablet 768*/
+
+@media screen and (max-width: 768px) {
+    .card{
+        width: 240px;
+        height: 210px;
+        padding: 30px 16px 35px 30px;
+    }
 }

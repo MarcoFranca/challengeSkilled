@@ -112,10 +112,10 @@
 
     .firstContainer--img{
         background-image: url("../../assets/image-hero-mobile@2x.png");
+        background-size: cover;
         background-position: center;
         position: static;
-        width: 100%;
-
+        width: 100vw;
     }
 
 }

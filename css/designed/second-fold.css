@@ -13,11 +13,11 @@
     border-radius: 10px;
     width: 290px;
     padding: 35px 16px 35px 30px;
+    margin-bottom: 85px;
 }
 .card--title{
     background-image: linear-gradient(#FF6F48, #F02AA6);
     height: 240px;
-    margin-bottom: 85px;
 }
 
 .card--courses{
